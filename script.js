@@ -1,5 +1,7 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
+  var options = []
+  var userChoice = window.prompt("Password must be 8-128 characters long.")
 
 // Write password to the #password input
 function writePassword() {
