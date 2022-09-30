@@ -54,6 +54,12 @@ header {
   min-height: 100px;
 }
 
+/* Added .prompts. */
+.prompts {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
 .card-footer {
   text-align: center;
 }
