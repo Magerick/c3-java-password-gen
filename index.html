@@ -33,6 +33,28 @@
           ></textarea>
         </div>
 
+        <!-- Added a character slider called <prompts>. -->
+        <!-- Added <label> and <input> values for the slider and checkbox prompts. -->
+        <prompts>
+          <label for="characterSetNumber">Number of Characters</label>
+          <input type="range" id="characterSetRange" min="8" max="128" value="8">
+          <input type="number" id="characterSetRange" min="8" max="128" value="8">
+
+          <label for="">Add Lowercase Characters</label>
+          <input type="checkbox" id="addLowercaseCharacters">
+
+          <label for="">Add Uppercase Characters</label>
+          <input type="checkbox" id="addUppercaseCharacters">
+
+          <label for="">Add Numeric Characters</label>
+          <input type="checkbox" id="addNumericCharacters">
+
+          <label for="">Add Special Characters</label>
+          <input type="checkbox" id="addSpecialCharacters">
+        </prompts>
+
+
+
         <div class="card-footer">
           <button id="generate" class="btn">
             Generate Password
