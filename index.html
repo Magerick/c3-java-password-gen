@@ -44,17 +44,22 @@
             <input type="number" id="characterSetRange" min="8" max="128" value="8">
           </gauge>
 
-          <label for="">Add Lowercase Characters</label>
-          <input type="checkbox" id="addLowercaseCharacters">
+          <!-- Wrapped the label and input checkboxes into a new div below.-->
+          <!-- Added class="checkboxes". -->
+          <checkboxes class="checkboxes">
+            <label for="">Add Lowercase Characters</label>
+            <input type="checkbox" id="addLowercaseCharacters">
 
-          <label for="">Add Uppercase Characters</label>
-          <input type="checkbox" id="addUppercaseCharacters">
+            <label for="">Add Uppercase Characters</label>
+            <input type="checkbox" id="addUppercaseCharacters">
 
-          <label for="">Add Numeric Characters</label>
-          <input type="checkbox" id="addNumericCharacters">
+            <label for="">Add Numeric Characters</label>
+            <input type="checkbox" id="addNumericCharacters">
 
-          <label for="">Add Special Characters</label>
-          <input type="checkbox" id="addSpecialCharacters">
+            <label for="">Add Special Characters</label>
+            <input type="checkbox" id="addSpecialCharacters">
+          </checkboxes>
+          
         </prompts>
 
         <div class="card-footer">
