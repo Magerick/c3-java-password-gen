@@ -37,9 +37,12 @@
         <!-- Added <label> and <input> values for the slider and checkbox prompts. -->
         <!-- Added class="prompts" below. -->
         <prompts class="prompts">
-          <label for="characterSetNumber">Number of Characters</label>
-          <input type="range" id="characterSetRange" min="8" max="128" value="8">
-          <input type="number" id="characterSetRange" min="8" max="128" value="8">
+          <!-- Wrapped character slider into <gauge>. -->
+          <gauge>
+            <label for="characterSetNumber">Number of Characters</label>
+            <input type="range" id="characterSetRange" min="8" max="128" value="8">
+            <input type="number" id="characterSetRange" min="8" max="128" value="8">
+          </gauge>
 
           <label for="">Add Lowercase Characters</label>
           <input type="checkbox" id="addLowercaseCharacters">
