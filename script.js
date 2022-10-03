@@ -26,8 +26,9 @@ var uppercaseList = [];
   for (var i = 0; i < lowercaseList.length; i++) {
     uppercaseList[i] = lowercaseList [i].toUpperCase();
   }
-var numbersList = [];
-var symbolsList = [];
+var numbersList = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"];
+// Added a bunch of symbols that usually work whenever I have to make new passwords. Don't know if ` ; : ' " , or . work (of course periods don't work in passwords).
+var symbolsList = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "=", "~", "_", "+", "<", ">", "/", "?"];
 }
 
 
