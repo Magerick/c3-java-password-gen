@@ -20,8 +20,12 @@ var userWantsNumbers = window.confirm("Do you want numbers in your password?");
 var userWantsSymbols = window.confirm("Do you want symbols in your password?");
 
 // Maded a list for the items above.
-var lowercaseList = ["a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a"];
+var lowercaseList = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 var uppercaseList = [];
+  // Added a for loop to hopefully convert the lowercase array to UPPERCASE to make my life easier.
+  for (var i = 0; i < lowercaseList.length; i++) {
+    uppercaseList[i] = lowercaseList [i].toUpperCase();
+  }
 var numbersList = [];
 var symbolsList = [];
 }
