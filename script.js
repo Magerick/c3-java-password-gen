@@ -13,13 +13,14 @@ if (passwordLength < 8 || passwordLength > 128) {
 }
 
 // Added four prompts for the remaining password criteria.
-var userWantsLowercase = window.confirm(“Do you want lowercase letters in your password?”);
+// Fixed some syntax issues below.
+var userWantsLowercase = window.confirm("Do you want lowercase letters in your password?");
 
-var userWantsUppercase = window.confirm(“Do you want UPPERCASE letters in your password?”);
+var userWantsUppercase = window.confirm("Do you want UPPERCASE letters in your password?");
 
-var userWantsNumbers = window.confirm(“Do you want numbers in your password?”);
+var userWantsNumbers = window.confirm("Do you want numbers in your password?");
 
-var userWantsSymbols = window.confirm(“Do you want symbols in your password?”);
+var userWantsSymbols = window.confirm("Do you want symbols in your password?");
 }
 
 
