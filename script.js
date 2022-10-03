@@ -66,10 +66,13 @@ function generatePassword() {
   }
 
   var generatedPassword = "";
-    for (var i = 0; 1 < passwordLength; i++) {
-      var randomList = getRandomItem(optionsCart);
-      var randomChar = getRandomItem(randomList);
-    }
+    
+  // Fixed indentation and added += randomChar.
+  for (var i = 0; 1 < passwordLength; i++) {
+    var randomList = getRandomItem(optionsCart);
+    var randomChar = getRandomItem(randomList);
+    generatedPassword += randomChar;
+  }
 }
 
 // Write password to the #password input
