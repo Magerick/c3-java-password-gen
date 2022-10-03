@@ -58,7 +58,7 @@ function generatePassword() {
       min = 0;
     }
     var rand = Math.random();
-    return Math.floow(min*(1-rand)+rand*max);
+    return Math.floor(min*(1-rand)+rand*max);
   }
 
   function getRandomItem(list) {
