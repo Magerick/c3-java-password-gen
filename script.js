@@ -29,6 +29,25 @@ var uppercaseList = [];
 var numbersList = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"];
 // Added a bunch of symbols that usually work whenever I have to make new passwords. Don't know if ` ; : ' " , or . work (of course periods don't work in passwords).
 var symbolsList = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "=", "~", "_", "+", "<", ">", "/", "?"];
+
+// Added a cart to link the options above.
+// Added booleans for the cart.
+var optionsCart = [];
+  if (userWantsLowercase === true) {
+    optionsCart.push(lowercaseList);
+  }
+
+  if (userWantsUppercase === true) {
+    optionsCart.push(uppercaseList);
+  }
+  
+  if (userWantsNumbers === true) {
+    optionsCart.push(numbersList);
+  }
+  
+  if (userWantsSymbols === true) {
+    optionsCart.push(symbolsList);
+  }
 }
 
 
