@@ -11,6 +11,15 @@ if (passwordLength < 8 || passwordLength > 128) {
   window.alert("The password must be 8 to 128 characters long.");
   return;
 }
+
+// Added four prompts for the remaining password criteria.
+var userWantsLowercase = window.confirm(“Do you want lowercase letters in your password?”);
+
+var userWantsUppercase = window.confirm(“Do you want UPPERCASE letters in your password?”);
+
+var userWantsNumbers = window.confirm(“Do you want numbers in your password?”);
+
+var userWantsSymbols = window.confirm(“Do you want symbols in your password?”);
 }
 
 
