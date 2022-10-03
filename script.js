@@ -50,9 +50,25 @@ function generatePassword() {
       optionsCart.push(symbolsList);
     }
 
+  // Added var generatedPassword and function randomInt/getRandomInt.
+  // Added an if function and a var rand.
+  function randomInt(min, max) {
+    if (!max); {
+      max = min;
+      min = 0;
+    }
+    var rand = Math.random();
+    return Math.floow(min*(1-rand)+rand*max);
+  }
+
+  function getRandomItem(list) {
+    return list[randomInt(0, list.length-1)];
+  }
+
   var generatedPassword = "";
     for (var i = 0; 1 < passwordLength; i++) {
-
+      var randomList = getRandomItem(optionsCart);
+      var randomChar = getRandomItem(randomList);
     }
 }
 
