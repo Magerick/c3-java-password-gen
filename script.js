@@ -73,6 +73,9 @@ function generatePassword() {
     var randomChar = getRandomItem(randomList);
     generatedPassword += randomChar;
   }
+
+  // Added a console log to see if the password generated.
+  console.log(generatedPassword);
 }
 
 // Write password to the #password input
