@@ -54,29 +54,6 @@ header {
   min-height: 100px;
 }
 
-/* Added .prompts. */
-/* Added row-gap, column-gap, justify-content, and align-items below. */
-.prompts {
-  display: grid;
-  grid-template-columns: auto auto;
-  row-gap: 10px;
-  column-gap: 20px;
-  justify-content: center;
-  align-items: center;
-}
-
-/* Added .checkboxes from <checkboxes>. */
-/* Pasted elements from .prompts and added a 10px bottom margin. */
-.checkboxes {
-  display: grid;
-  grid-template-columns: auto auto;
-  row-gap: 10px;
-  column-gap: 20px;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
 .card-footer {
   text-align: center;
 }
