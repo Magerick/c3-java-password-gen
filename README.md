@@ -17,6 +17,8 @@ When inputting an invalid number the password character limit, the script will a
 If a user cancels every character type after setting the character limit, the password will default to generating lowercase characters:
 ![The password will default to generating lowercase characters.](assets/images/screen-3.gif?raw=true)
 
+https://magerick.github.io/c3-java-password-gen/
+
 ## Credits
 N/A
 
