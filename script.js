@@ -92,8 +92,8 @@ function generatePassword() {
   // Added a console log to see if the password generated.
   // console.log(generatedPassword);
   // Added a return statement to fill in the password field.
-  return generatePassword;
-
+  // Typo: generate -> generated.
+  return generatedPassword;
 }
 
 // Write password to the #password input
