@@ -31,8 +31,9 @@ function generatePassword() {
 
   // Added an alert box if the user does not input a number.
   // Added user-friendly comments in the string.
+  // Made it more (less) friendly.
   if (isNaN(passwordLength)) {
-    window.alert("Use a number that is not a word.");
+    window.alert("Use a number that is not a word, letter, or symbol.");
     return;
   }
 
