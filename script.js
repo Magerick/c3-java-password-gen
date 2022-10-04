@@ -18,8 +18,9 @@ var generateBtn = document.querySelector("#generate");
 
 // Added var userInput and passwordLength.
 // Adjusted indentation for the whole code chain below function generatePassword().
+// Added user-friendly comments in the string.
 function generatePassword() {
-  var userInput = window.prompt("How many characters do you want in your password?");
+  var userInput = window.prompt("How many text characters do you want in your password?");
   var passwordLength = parseInt(userInput);
   
   // Added an if function and an OR comparator for passwords between 8-128 characters long.
@@ -29,8 +30,9 @@ function generatePassword() {
   }
 
   // Added an alert box if the user does not input a number.
+  // Added user-friendly comments in the string.
   if (isNaN(passwordLength)) {
-    window.alert("Use a number.");
+    window.alert("Use a number that is not a word.");
     return;
   }
 
