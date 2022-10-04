@@ -90,7 +90,9 @@ function generatePassword() {
   }
 
   // Added a console log to see if the password generated.
-  console.log(generatedPassword);
+  // console.log(generatedPassword);
+  // Added a return statement to fill in the password field.
+  return generatePassword;
 
 }
 
